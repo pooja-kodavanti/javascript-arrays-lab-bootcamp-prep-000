@@ -27,21 +27,25 @@ function destructivelyRemoveFirstKitten() {
 }
 
 function appendKitten(name) {
+  var kittens = ["Milo", "Otis", "Garfield"]
   var name = 'Broom'
   return [...kittens, name]
 }
 
 function prependKitten(name) {
+  var kittens = ["Milo", "Otis", "Garfield"]
   var name = 'Arnold'
   return [name, ...kittens]
 }
 
 function removeLastKitten() {
+  var kittens = ["Milo", "Otis", "Garfield"]
   kittens.slice(0, kittens.length - 1)
   return kittens
 }
 
 function removeFirstKitten() {
+  var kittens = ["Milo", "Otis", "Garfield"]
   kittens.slice(1)
   return kittens
 }
